@@ -10,7 +10,7 @@ const return__Scraper__API__Query = (API__KEY) =>
   `http://api.scraperapi.com?api_key=${API__KEY}&autoparse=true`;
 // welcome routes
 app.get("/", (request, response) => {
-  response.send("<h1>Welcome to Amazon Scraper API by Ahsan</h1>");
+  response.send("<h1>Welcome to Amazon Scraper API by Ashoo</h1>");
 });
 // get products
 app.get("/products/:productId", async (req, res) => {
