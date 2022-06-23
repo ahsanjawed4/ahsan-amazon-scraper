@@ -1,0 +1,24 @@
+{
+  "name": "amazon-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "keywords": [
+    "amazon",
+    "node",
+    "express"
+  ],
+  "author": "ahsan jawed",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
